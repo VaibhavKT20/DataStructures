@@ -1,14 +1,14 @@
 public class PrintNto1 {
-        public static void print1ToN(int n){
+        public static void printNTo1(int n){
             if(n==0){
                 return;
             }
             System.out.println(n);
-            print1ToN(n-1);
+            printNTo1(n-1);
 
         }
         public static void main(String[] args) {
-            print1ToN(10);
+            printNTo1(10);
         }
 }
 
