@@ -23,8 +23,13 @@ public class ReverseString {
         }
         System.out.println(new String(charArr));
     }
+
+
     public static void main(String[] args) {
         reverseString("ABCD");
         reverseString1("ABCD");
+        String str="Hello";
+        String reversed= String.valueOf(new StringBuilder(str).reverse());
+        System.out.println(reversed);
     }
 }
