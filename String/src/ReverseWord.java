@@ -36,5 +36,6 @@ public class ReverseWord {
     public static void main(String[] args) {
         String result= "the sky is blue";
         System.out.println(reverseWord(result));
+        System.out.println(reverseWord1(result));
     }
 }
