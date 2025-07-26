@@ -51,21 +51,41 @@ public class String1 {
 //        System.out.println(str.charAt(3));
 //        System.out.println(str.substring(2));
 //        System.out.println(str.substring(2,5));
+//
+//        String str1="geeks";
+//        String str2="geeks";
+//        if(str1==str2){
+//            System.out.println("Yes");
+//        }
+//        else{
+//            System.out.println("No");
+//        }
+//        String str3=new String("geeks");
+//        if(str1==str3){
+//            System.out.println("yes");
+//        }
+//        else{
+//            System.out.println("No");
+//        }
 
-        String str1="geeks";
-        String str2="geeks";
-        if(str1==str2){
-            System.out.println("Yes");
-        }
-        else{
-            System.out.println("No");
-        }
-        String str3=new String("geeks");
-        if(str1==str3){
-            System.out.println("yes");
-        }
-        else{
-            System.out.println("No");
-        }
+//        String str1="geeksforgeeks";
+//        String str2="geeks";
+//        String str3="geeksforgeeks";
+//        System.out.println(str1.contains(str2));
+//        System.out.println(str1.equals(str2));
+//        System.out.println(str1.equals(str3));
+//        System.out.println(str1.indexOf(str2));
+//        System.out.println(str1.compareTo(str2));
+//        System.out.println(str1.compareTo(str3));
+//        System.out.println(str2.compareTo(str1));
+
+        String s1="geeks";
+        String s2=s1;
+//        s1=s1.concat("forgeeks");
+        s1=s1+"forgeeks";
+        System.out.println(s1);
+        System.out.println(s2);
+        System.out.println(s1==s2);
+
     }
 }
