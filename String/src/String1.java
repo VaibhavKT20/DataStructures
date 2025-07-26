@@ -31,21 +31,41 @@ public class String1 {
 //        System.out.println(name1==name4);
 
 //        String object
-        String name1=new String("Vaibhav");
-        String name2=new String("Vaibhav");
-        String name3=new String("Vaibhav");
-        String name4=name1;
-        System.out.println(name1==name2);
-        System.out.println(name2==name3);
-        System.out.println(name3==name4);
-        System.out.println(name4==name2);
-        System.out.println(name1==name4);
-        System.out.println();
-        System.out.println(name1.equals(name2));
-        System.out.println(name2.equals(name3));
-        System.out.println(name3.equals(name4));
-        System.out.println(name1.equals(name4));
+//        String name1=new String("Vaibhav");
+//        String name2=new String("Vaibhav");
+//        String name3=new String("Vaibhav");
+//        String name4=name1;
+//        System.out.println(name1==name2);
+//        System.out.println(name2==name3);
+//        System.out.println(name3==name4);
+//        System.out.println(name4==name2);
+//        System.out.println(name1==name4);
+//        System.out.println();
+//        System.out.println(name1.equals(name2));
+//        System.out.println(name2.equals(name3));
+//        System.out.println(name3.equals(name4));
+//        System.out.println(name1.equals(name4));
 
+//        String str="geeks";
+//        System.out.println(str.length());
+//        System.out.println(str.charAt(3));
+//        System.out.println(str.substring(2));
+//        System.out.println(str.substring(2,5));
 
+        String str1="geeks";
+        String str2="geeks";
+        if(str1==str2){
+            System.out.println("Yes");
+        }
+        else{
+            System.out.println("No");
+        }
+        String str3=new String("geeks");
+        if(str1==str3){
+            System.out.println("yes");
+        }
+        else{
+            System.out.println("No");
+        }
     }
 }
