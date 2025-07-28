@@ -3,10 +3,7 @@ public class ReverseWordInAString {
             char[] chars = str.toCharArray();
             int n = chars.length;
 
-            // Step 1: Reverse the entire string
             reverse(chars, 0, n - 1);
-
-            // Step 2: Reverse each word individually
             int start = 0;
             for (int i = 0; i <= n; i++) {
                 if (i == n || chars[i] == ' ') {
@@ -15,7 +12,6 @@ public class ReverseWordInAString {
                 }
             }
 
-            // Step 3: Build final string manually (optional for printing)
             String result = "";
             for (int i = 0; i < n; i++) {
                 result += chars[i];
@@ -23,8 +19,6 @@ public class ReverseWordInAString {
 
             return result;
         }
-
-        // Helper method to reverse characters between indices left and right
         public static void reverse(char[] arr, int left, int right) {
             while (left < right) {
                 char temp = arr[left];
@@ -38,7 +32,7 @@ public class ReverseWordInAString {
         public static void main(String[] args) {
             String input = "Hello world this is Java";
             String result = reverseWords(input);
-            System.out.println(result);  // Output: Java is this world Hello
+            System.out.println(result);
         }
 }
 
