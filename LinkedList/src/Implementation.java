@@ -1,33 +1,33 @@
-class Node {
+class Node1 {
     int data;
-    Node next;
+    Node1 next;
 
     // Constructor
-    public Node(int data) {
+    public Node1(int data) {
         this.data = data;
         this.next = null;
     }
 }
 
 public class Implementation {
-    Node head;
+    Node1 head;
 
     // Insert at head
     public void insertAtHead(int data) {
-        Node newNode = new Node(data);
+        Node1 newNode = new Node1(data);
         newNode.next = head;
         head = newNode;
     }
 
     // Insert at end
     public void insertAtEnd(int data) {
-        Node newNode = new Node(data);
+        Node1 newNode = new Node1(data);
         if (head == null) {
             head = newNode;
             return;
         }
 
-        Node temp = head;
+        Node1 temp = head;
         while (temp.next != null) {
             temp = temp.next;
         }
@@ -47,8 +47,8 @@ public class Implementation {
             return;
         }
 
-        Node newNode = new Node(data);
-        Node temp = head;
+        Node1 newNode = new Node1(data);
+        Node1 temp = head;
 
         for (int i = 0; i < pos - 1; i++) {
             if (temp == null) {
@@ -64,7 +64,7 @@ public class Implementation {
 
     // Print the linked list
     public void printList() {
-        Node temp = head;
+        Node1 temp = head;
         System.out.print("Linked List: ");
         while (temp != null) {
             System.out.print(temp.data + " -> ");
