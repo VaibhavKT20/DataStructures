@@ -11,5 +11,12 @@ public class HashMapDemo {
         for(Map.Entry<String,Integer> e:m.entrySet()){
             System.out.println(e.getKey()+" "+e.getValue());
         }
+        System.out.println(m.containsKey("ide"));
+        System.out.println(m.containsValue(15));
+        System.out.println(m.get("course"));
+        m.remove("ide");
+
+        System.out.println(m.size());
+        System.out.println(m.containsKey("ide"));
     }
 }
