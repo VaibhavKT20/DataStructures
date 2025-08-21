@@ -16,6 +16,8 @@ public class HashSetDemo {
             System.out.println(s);
         }
         System.out.println(h.isEmpty());
+        h.add("leetcode");
+        System.out.println(h.size());
     }
 
 
