@@ -30,6 +30,26 @@ public class InsertAtBegin {
         curr.next=temp;
         return head;
     }
+    public static Node deleteHead(Node head){
+        if(head==null){
+            return null;
+        }
+        return head.next;
+    }
+    public static Node deleteAtEnd(Node head){
+        if(head==null){
+            return null;
+        }
+        if(head.next==null){
+            return null;
+        }
+        Node curr=head;
+        while(curr.next.next!=null){
+            curr=curr.next;
+        }
+        curr.next=null;
+        return head;
+    }
     public static void printList(Node head){
         Node curr=head;
         while(curr!=null){
@@ -50,5 +70,10 @@ public class InsertAtBegin {
         printList(head);
         head=insertAtPos(head,4,999);
         printList(head);
+        head=deleteHead(head);
+        printList(head);
+        head=deleteAtEnd(head);
+        printList(head);
     }
 }
+
