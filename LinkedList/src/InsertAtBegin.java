@@ -4,6 +4,32 @@ public class InsertAtBegin {
         temp.next=head;
         return temp;
     }
+    public static Node insertAtEnd(Node head,int data){
+        Node temp=new Node(data);
+        if(head==null){
+            return temp;
+        }
+        Node curr=head;
+        while(curr.next!=null){
+            curr=curr.next;
+        }
+        curr.next=temp;
+        return head;
+    }
+    public static Node insertAtPos(Node head,int pos,int data){
+        Node temp=new Node(data);
+        if(head==null){
+            temp.next=head;
+            return temp;
+        }
+        Node curr=head;
+        for(int i=1;i<=pos-2 && curr!=null ;i++){
+            curr=curr.next;
+        }
+        temp.next=curr.next;
+        curr.next=temp;
+        return head;
+    }
     public static void printList(Node head){
         Node curr=head;
         while(curr!=null){
@@ -18,6 +44,11 @@ public class InsertAtBegin {
         head=insertAtBegin(head,20);
         head=insertAtBegin(head,30);
         head=insertAtBegin(head,40);
+        printList(head);
+        head=insertAtEnd(head,90);
+        head=insertAtEnd(head,110);
+        printList(head);
+        head=insertAtPos(head,4,999);
         printList(head);
     }
 }
