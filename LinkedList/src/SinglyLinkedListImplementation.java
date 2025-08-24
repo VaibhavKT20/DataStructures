@@ -1,4 +1,4 @@
-public class InsertAtBegin {
+public class SinglyLinkedListImplementation {
     public static Node insertAtBegin(Node head,int data){
         Node temp=new Node(data);
         temp.next=head;
