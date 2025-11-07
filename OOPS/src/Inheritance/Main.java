@@ -18,5 +18,12 @@ public class Main {
 //        BoxWeight box6=new Box(1,2,3);
         BoxPrice box6=new BoxPrice(5,8,200);
         System.out.println(box6.getSide()+" "+box6.weight+" "+box6.cost);
+
+
+
+
+
+
+
     }
 }
