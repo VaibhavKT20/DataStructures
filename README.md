@@ -59,4 +59,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0136-single-number](https://github.com/VaibhavKT20/DataStructures/tree/master/0136-single-number) |
 | [0268-missing-number](https://github.com/VaibhavKT20/DataStructures/tree/master/0268-missing-number) |
+## Linked List
+|  |
+| ------- |
+| [0707-design-linked-list](https://github.com/VaibhavKT20/DataStructures/tree/master/0707-design-linked-list) |
+## Design
+|  |
+| ------- |
+| [0707-design-linked-list](https://github.com/VaibhavKT20/DataStructures/tree/master/0707-design-linked-list) |
 <!---LeetCode Topics End-->
