@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1174-immediate-food-delivery-ii](https://github.com/VaibhavKT20/DataStructures/tree/master/1174-immediate-food-delivery-ii) |
 | [1378-replace-employee-id-with-the-unique-identifier](https://github.com/VaibhavKT20/DataStructures/tree/master/1378-replace-employee-id-with-the-unique-identifier) |
 | [1581-customer-who-visited-but-did-not-make-any-transactions](https://github.com/VaibhavKT20/DataStructures/tree/master/1581-customer-who-visited-but-did-not-make-any-transactions) |
+| [1661-average-time-of-process-per-machine](https://github.com/VaibhavKT20/DataStructures/tree/master/1661-average-time-of-process-per-machine) |
 | [1683-invalid-tweets](https://github.com/VaibhavKT20/DataStructures/tree/master/1683-invalid-tweets) |
 | [1757-recyclable-and-low-fat-products](https://github.com/VaibhavKT20/DataStructures/tree/master/1757-recyclable-and-low-fat-products) |
 ## String
