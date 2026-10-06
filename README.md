@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/VaibhavKT20/DataStructures/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/VaibhavKT20/DataStructures/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/VaibhavKT20/DataStructures/tree/master/0485-max-consecutive-ones) |
+| [2942-find-words-containing-character](https://github.com/VaibhavKT20/DataStructures/tree/master/2942-find-words-containing-character) |
 ## Two Pointers
 |  |
 | ------- |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0058-length-of-last-word](https://github.com/VaibhavKT20/DataStructures/tree/master/0058-length-of-last-word) |
 | [0344-reverse-string](https://github.com/VaibhavKT20/DataStructures/tree/master/0344-reverse-string) |
+| [2942-find-words-containing-character](https://github.com/VaibhavKT20/DataStructures/tree/master/2942-find-words-containing-character) |
 ## Dynamic Programming
 |  |
 | ------- |
