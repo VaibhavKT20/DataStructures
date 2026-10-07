@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/VaibhavKT20/DataStructures/tree/master/0344-reverse-string) |
 | [0771-jewels-and-stones](https://github.com/VaibhavKT20/DataStructures/tree/master/0771-jewels-and-stones) |
 | [2942-find-words-containing-character](https://github.com/VaibhavKT20/DataStructures/tree/master/2942-find-words-containing-character) |
+| [3541-find-most-frequent-vowel-and-consonant](https://github.com/VaibhavKT20/DataStructures/tree/master/3541-find-most-frequent-vowel-and-consonant) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/VaibhavKT20/DataStructures/tree/master/0160-intersection-of-two-linked-lists) |
 | [0268-missing-number](https://github.com/VaibhavKT20/DataStructures/tree/master/0268-missing-number) |
 | [0771-jewels-and-stones](https://github.com/VaibhavKT20/DataStructures/tree/master/0771-jewels-and-stones) |
+| [3541-find-most-frequent-vowel-and-consonant](https://github.com/VaibhavKT20/DataStructures/tree/master/3541-find-most-frequent-vowel-and-consonant) |
 ## Math
 |  |
 | ------- |
@@ -116,4 +118,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0234-palindrome-linked-list](https://github.com/VaibhavKT20/DataStructures/tree/master/0234-palindrome-linked-list) |
+## Counting
+|  |
+| ------- |
+| [3541-find-most-frequent-vowel-and-consonant](https://github.com/VaibhavKT20/DataStructures/tree/master/3541-find-most-frequent-vowel-and-consonant) |
 <!---LeetCode Topics End-->
